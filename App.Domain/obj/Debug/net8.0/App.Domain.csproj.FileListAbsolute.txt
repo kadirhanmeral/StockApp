@@ -1,0 +1,11 @@
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Domain/bin/Debug/net8.0/App.Domain.deps.json
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Domain/bin/Debug/net8.0/App.Domain.dll
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Domain/bin/Debug/net8.0/App.Domain.pdb
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Domain/obj/Debug/net8.0/App.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Domain/obj/Debug/net8.0/App.Domain.AssemblyInfoInputs.cache
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Domain/obj/Debug/net8.0/App.Domain.AssemblyInfo.cs
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Domain/obj/Debug/net8.0/App.Domain.csproj.CoreCompileInputs.cache
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Domain/obj/Debug/net8.0/App.Domain.dll
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Domain/obj/Debug/net8.0/refint/App.Domain.dll
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Domain/obj/Debug/net8.0/App.Domain.pdb
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Domain/obj/Debug/net8.0/ref/App.Domain.dll

@@ -1,0 +1,295 @@
+﻿@model App.Web.Models.PaginatedStockViewModel
+
+<style>
+    /* Tablodaki satır yüksekliği ve hücre iç boşluklarını ayarlıyoruz */
+    .table tbody tr {
+        height: 35px; /* Satır yüksekliğini belirgin şekilde düşürüyoruz */
+    }
+
+    .table td, .table th {
+        padding: 4px; /* Hücre iç boşluklarını iyice azaltıyoruz */
+        vertical-align: middle; /* İçerik ortalansın */
+    }
+
+    /* Sol ve sağ taraflar için genişlik ayarı */
+    .col-md-8 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .col-md-4 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    /* Satır ve sütunlar arasındaki genel boşlukları daha da azaltıyoruz */
+    .row {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .table th {
+        position: sticky;
+        top: 0; /* Üst kısımda sabit kalacak */
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-8 mt-3">
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered">
+                <h2 class="text">BIST100</h2>
+                <thead class="table-dark " >
+                <tr>
+                    <th scope="col" style="width: 15%;">Company</th>
+                    <th scope="col" style="width: 38%;">Name</th>
+                    <th scope="col" style="width: 10%;">Price</th>
+                    <th scope="col" style="width: 10%;">Change</th>
+                    <th scope="col" style="width: 22%;">Time</th>
+                </tr>
+                </thead>
+                <tbody id="stockTableBody">
+                @foreach (var stock in Model.Stocks)
+                {
+                    <tr>
+                        <th scope="row">
+                            <a href="#" class="text-decoration-none stock-link" data-symbol="@stock.Symbol" data-price="@stock.Price">
+                                @stock.Symbol
+                            </a>
+                        </th>
+                        <td>@stock.Name</td>
+                        <td>₺@stock.Price</td>
+                        <td class="@(stock.PercentChange > 0 ? "positive" : "negative")">
+                            @stock.PercentChange%
+                        </td>
+
+
+                        <td>@stock.Time.ToString("g")</td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+        <nav aria-label="Page navigation" class="d-flex justify-content-center mt-4">
+            <ul class="pagination" id="pagination">
+                <!-- JavaScript will dynamically create the page numbers here -->
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Sağ taraf: İki tablo (biri üstte, biri altta) -->
+    <div class="col-md-4 mt-3">
+        <!-- Üstteki tablo -->
+        <h2 class="text">Currencies & Commodities</h2>
+        <div class="table-responsive mb-3" style="max-height: 183px; overflow-y: auto;">
+            
+            <table class="table table-hover table-bordered">
+                <thead class="table-dark">
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Buy Rate</th>
+                    <th scope="col">Sell Rate</th>
+                    <th scope="col"style="width: 20%;">Change</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var currency in Model.Currencies.Data)
+                {
+                    if (currency.Type == "Döviz")
+                    {
+                        <tr>
+                            <td>
+
+                                <a href="/Currency/Details?name=@currency.Currency">
+                                    @currency.Currency
+                                </a>
+                            </td>
+                            <td>@currency.BuyRate</td>
+                            <td>@currency.SellRate</td>
+                            <td class="@(currency.Change > 0 ? "positive" : "negative")">
+                                @currency.Change%
+                            </td>
+                        </tr>
+                    }
+
+                }
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Alttaki tablo -->
+        <div class="table-responsive" style="max-height: 183px; overflow-y: auto;">
+            <table class="table table-hover table-bordered">
+                <thead class="table-dark">
+                <tr>
+                    <th scope="col" style="width: 200px">Name</th>
+                    <th scope="col" >Buy Rate</th>
+                    <th scope="col">Sell Rate</th>
+                    <th scope="col" style="width:20%">Change</th>
+                </tr>
+                </thead>
+                <tbody>
+                
+                @{
+                    
+                    var currencyNames = new Dictionary<string, string>
+                    {
+                        { "ons", "Ons Altın" },
+                        { "gram-altin", "Gram Altın" },
+                        { "gram-has-altin", "Gram Has Altın" },
+                        { "ceyrek-altin", "Çeyrek Altın" },
+                        { "yarim-altin", "Yarım Altın" },
+                        { "tam-altin", "Tam Altın" },
+                        { "cumhuriyet-altini", "Cumhuriyet Altını" },
+                        { "ata-altin", "Ata Altını" },
+                        { "14-ayar-altin", "14 Ayar Altın" },
+                        { "18-ayar-altin", "18 Ayar Altın" },
+                        { "22-ayar-bilezik", "22 Ayar Bilezik" },
+                        { "ikibucuk-altin", "İkibuçuk Altın" },
+                        { "besli-altin", "Beşli Altın" },
+                        { "gremse-altin", "Gremse Altın" },
+                        { "resat-altin", "Reşat Altın" },
+                        { "hamit-altin", "Hamit Altın" },
+                        { "gumus", "Gümüş" },
+                        { "gram-platin", "Gram Platin" }
+                    };
+
+                    @foreach (var currency in Model.Currencies.Data)
+                    {
+
+                        if (currency.Type == "Altın")
+                        {
+                            <tr>
+                                <td>
+                                    
+                                    <a href="/Currency/Details?name=@currency.Currency">
+                                        @currencyNames[currency.Currency]
+                                    </a>
+
+                                </td>
+                                <td>@currency.BuyRate</td>
+                                <td>@currency.SellRate</td>
+                                <td class="@(currency.Change > 0 ? "positive" : "negative")">
+                                    @currency.Change%
+                                </td> </tr>
+                        }
+
+                    }
+                }
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<div class="container mt-5">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-body-secondary">© 2024 StockWeb</p>
+
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+    </footer>
+</div>
+
+
+
+@section Scripts {
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // Function to render the pagination HTML
+        function renderPagination(totalPages, currentPage) {
+            let paginationHtml = '';
+
+            paginationHtml += `
+                <li class="page-item ${currentPage === 1 ? 'disabled' : ''}">
+                    <a class="page-link" href="#" data-page="1" aria-label="First" style="color: black">
+                        <span aria-hidden="true">&laquo;&laquo;</span>
+                    </a>
+                </li>`;
+
+            for (let i = 1; i <= totalPages; i++) {
+                paginationHtml += `
+        <li class="page-item ${currentPage === i ? 'active' : ''}">
+            <a class="page-link" href="#" data-page="${i}" style="color: black;">${i}</a>
+        </li>`;
+            }
+
+            paginationHtml += `
+                <li class="page-item ${currentPage === totalPages ? 'disabled' : ''}">
+                    <a class="page-link" href="#" data-page="${totalPages}" aria-label="Last">
+                        <span aria-hidden="true">&raquo;&raquo;</span>
+                    </a>
+                </li>`;
+
+            $('#pagination').html(paginationHtml);
+        }
+
+        // Update href attributes for stock links
+        function updateStockLinks() {
+            $('.stock-link').each(function () {
+                let symbol = $(this).data('symbol');
+                let url = '@Url.Action("Details", "Stock", new { symbol = "__symbol__"})'
+                    .replace('__symbol__', encodeURIComponent(symbol));
+                $(this).attr('href', url);
+            });
+        }
+
+        // Listen for click events on page links
+        $(document).on('click', '.page-link', function (e) {
+            e.preventDefault();
+            let page = $(this).data('page');
+            // AJAX request to fetch data
+            $.ajax({
+                url: '@Url.Action("GetStocksData", "Home")',
+                type: 'GET',
+                data: { page: page, pageSize: 10 },
+                success: function (data) {
+                    // Update the table with new data
+                    let tableHtml = '';
+                    data.items.forEach(function (stock) {
+                        tableHtml += `<tr>
+                            <th scope="row">
+                                <a href="#" class="text-decoration-none stock-link" data-symbol="${stock.symbol}">
+                                    ${stock.symbol}
+                                </a>
+                            </th>
+                            <td>${stock.name}</td>
+                            <td>₺${stock.price.toFixed(2)}</td> <!-- Fiyatı düzgün formatla göster -->
+                            <td class="${(stock.percentChange > 0) ? "positive" : "negative"}">
+                            ${stock.percentChange.toFixed(2)}%
+                        </td>  
+
+                        <td>${formatDate(new Date(stock.time))}</td>                        </tr>`;
+                    });
+
+                    $('#stockTableBody').html(tableHtml);
+                    updateStockLinks(); // Update links after new data is loaded
+
+                    // Update the pagination
+                    renderPagination(data.totalPages, data.currentPage);
+                },
+                error: function () {
+                    alert('An error occurred.');
+                }
+            });
+        });
+
+        // Render pagination when the page loads
+        renderPagination(@Model.TotalPages, @Model.CurrentPage);
+        updateStockLinks(); // Ensure links are correct on initial load
+    });
+
+    function formatDate(date) {
+        const optionsDate = { day: '2-digit', month: '2-digit', year: 'numeric' };
+        const optionsTime = { hour: '2-digit', minute: '2-digit', hour12: false };
+
+        const formattedDate = date.toLocaleDateString('tr-TR', optionsDate);
+        const formattedTime = date.toLocaleTimeString('tr-TR', optionsTime);
+
+        return `${formattedDate} ${formattedTime}`;
+    }
+</script>
+}

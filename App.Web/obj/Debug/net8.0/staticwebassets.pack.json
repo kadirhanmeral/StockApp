@@ -1,0 +1,717 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/obj/Debug/net8.0/scopedcss/projectbundle/App.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets/App.Web.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/- StockWeb.html",
+      "PackagePath": "staticwebassets/Img/- StockWeb.html"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/- StockWeb_files/StockWeb.styles.css",
+      "PackagePath": "staticwebassets/Img/- StockWeb_files/StockWeb.styles.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/- StockWeb_files/apexcharts",
+      "PackagePath": "staticwebassets/Img/- StockWeb_files"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/- StockWeb_files/apexcharts.css",
+      "PackagePath": "staticwebassets/Img/- StockWeb_files/apexcharts.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/- StockWeb_files/aspnetcore-browser-refresh.js",
+      "PackagePath": "staticwebassets/Img/- StockWeb_files/aspnetcore-browser-refresh.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/- StockWeb_files/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/Img/- StockWeb_files/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/- StockWeb_files/bootstrap.min.css",
+      "PackagePath": "staticwebassets/Img/- StockWeb_files/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/- StockWeb_files/bootstrap.min.js",
+      "PackagePath": "staticwebassets/Img/- StockWeb_files/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/- StockWeb_files/jquery-3.5.1.slim.min.js",
+      "PackagePath": "staticwebassets/Img/- StockWeb_files/jquery-3.5.1.slim.min.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/- StockWeb_files/jquery.min.js",
+      "PackagePath": "staticwebassets/Img/- StockWeb_files/jquery.min.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/- StockWeb_files/site.css",
+      "PackagePath": "staticwebassets/Img/- StockWeb_files/site.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/- StockWeb_files/site.js",
+      "PackagePath": "staticwebassets/Img/- StockWeb_files/site.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/- StockWeb_files/styles.css",
+      "PackagePath": "staticwebassets/Img/- StockWeb_files/styles.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator.html",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator.html"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/0",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/0(1)",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/0(2)",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/0(3)",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/0(4)",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/0(5)",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/0(6)",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/0(7)",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/1090-3a9e1b59759b8122.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/1090-3a9e1b59759b8122.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/10f0c1fb10cf103f.css",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/10f0c1fb10cf103f.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/1336-a9cfd7bace7b3234.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/1336-a9cfd7bace7b3234.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/1352-f20f98c9b555e322.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/1352-f20f98c9b555e322.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/1554-98912890419be40d.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/1554-98912890419be40d.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/1606-bbbe9d27362bb00d.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/1606-bbbe9d27362bb00d.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/1639-5e89f21986ff5485.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/1639-5e89f21986ff5485.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/187135514",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/187135514.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/187135514.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/2061-d6db2ec148f9ea2c.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/2061-d6db2ec148f9ea2c.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/2141-1b42521ef755df1b.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/2141-1b42521ef755df1b.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/2213-b69b0d90d61ac1dc.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/2213-b69b0d90d61ac1dc.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/231-07172dcfab02447c.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/231-07172dcfab02447c.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/2314-b9b0843fae487f1c.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/2314-b9b0843fae487f1c.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/2447-d6962125ddec3106.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/2447-d6962125ddec3106.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/2608-7e09f46693f9dab8.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/2608-7e09f46693f9dab8.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/2917-ec7bc8991622fff4.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/2917-ec7bc8991622fff4.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/3304-107f271d1838cc19.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/3304-107f271d1838cc19.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/3379-c9d64bbd13ae9c48.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/3379-c9d64bbd13ae9c48.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/3393-9bbd3c60d3fad72f.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/3393-9bbd3c60d3fad72f.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/3547-f760cdadbb332ca9.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/3547-f760cdadbb332ca9.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/3936-8eaab8a398cbb2a8.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/3936-8eaab8a398cbb2a8.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/4127-07d63cf32c98e149.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/4127-07d63cf32c98e149.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/4364-7f25aebb539ede74.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/4364-7f25aebb539ede74.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/4370-93baf2450b0d0066.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/4370-93baf2450b0d0066.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/4441-8ccc9a971195399e.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/4441-8ccc9a971195399e.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/4565-0b56acbe9cac2dbf.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/4565-0b56acbe9cac2dbf.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/5018-cfce62b785bc6321.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/5018-cfce62b785bc6321.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/5330-c753ddb4f2381f5b.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/5330-c753ddb4f2381f5b.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/5510-3bde7504c4af247f.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/5510-3bde7504c4af247f.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/590-d3ba612659774ec6.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/590-d3ba612659774ec6.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/6533-591a0181daeea15b.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/6533-591a0181daeea15b.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/6717-fae01c6b899924e5.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/6717-fae01c6b899924e5.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/6912-0329d1897c6ea100.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/6912-0329d1897c6ea100.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/7023-3353d0ae096d10c0.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/7023-3353d0ae096d10c0.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/7071-731db897935805c5.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/7071-731db897935805c5.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/725200687.html",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/725200687.html"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/7744-d8475d341df017ba.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/7744-d8475d341df017ba.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/8173-716e6e51d4b4b9be.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/8173-716e6e51d4b4b9be.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/8211-f88fb60ecef866cf.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/8211-f88fb60ecef866cf.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/8327-dfb87ead2387b24d.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/8327-dfb87ead2387b24d.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/8594-9f490c17e219b19a.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/8594-9f490c17e219b19a.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/8662-46cf925b2bd7c624.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/8662-46cf925b2bd7c624.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/8742-d6acf86d78ebab4f.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/8742-d6acf86d78ebab4f.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/8779-20e1982337aa38dd.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/8779-20e1982337aa38dd.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/9343-116ac1246217b133.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/9343-116ac1246217b133.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/9565-63904dabf0fd0c9a.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/9565-63904dabf0fd0c9a.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/9622-9c4db4e649374901.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/9622-9c4db4e649374901.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/9659-4d9726fd3c22ee7c.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/9659-4d9726fd3c22ee7c.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/9717cd6942cf3bf9.css",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/9717cd6942cf3bf9.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/974-98786d9980a480fb.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/974-98786d9980a480fb.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/anime.webp",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/anime.webp"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/app-store-cta.svg",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/app-store-cta.svg"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/artistic.webp",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/artistic.webp"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/bat.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/bat.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/c21d223bd7bbcfe1.css",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/c21d223bd7bbcfe1.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/clarity(1).js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/clarity(1).js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/clarity.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/clarity.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/client",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/dc112a36-dd72e56818520f67.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/dc112a36-dd72e56818520f67.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/destination",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/f.txt",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/f.txt"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/fbevents.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/fbevents.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/fd9d1056-0333dc15905561f8.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/fd9d1056-0333dc15905561f8.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/global-error-78427f60afd2da5e.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/global-error-78427f60afd2da5e.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/gm8yy2ed7a",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/gm8yy2ed7a(1)",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/gtag.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/gtag.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/gtm.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/gtm.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/icon.webp",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/icon.webp"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/layout-0280bb914733eb0f.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/layout-0280bb914733eb0f.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/layout-1399f4a8505ed5b2.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/layout-1399f4a8505ed5b2.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/layout-c4d5534ae7ad7565.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/layout-c4d5534ae7ad7565.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/loading-d295d02aef077bb7.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/loading-d295d02aef077bb7.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/logo.webp",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/logo.webp"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/main-app-f2f0639344fe5f8a.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/main-app-f2f0639344fe5f8a.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/mixpanel-2-latest.min.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/mixpanel-2-latest.min.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/mixpanel-js-wrapper.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/mixpanel-js-wrapper.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/pixel(1).js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/pixel(1).js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/pixel.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/pixel.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/play-store-cta.svg",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/play-store-cta.svg"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/polyfills-78c92fac7aa8fdd8.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/polyfills-78c92fac7aa8fdd8.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/pushowl-sib.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/pushowl-sib.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/realistic.webp",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/realistic.webp"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/sa.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/sa.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/tapfiliate.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/tapfiliate.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/turbo.webp",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/turbo.webp"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/webpack-6091cbc6a38e5e10.js",
+      "PackagePath": "staticwebassets/Img/ImagineArt AI Art Generator _ Free AI Image Generator_files/webpack-6091cbc6a38e5e10.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/css/styles.css",
+      "PackagePath": "staticwebassets/css/styles.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Web/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.App.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.App.Web.props",
+      "PackagePath": "build\\App.Web.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.App.Web.props",
+      "PackagePath": "buildMultiTargeting\\App.Web.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.App.Web.props",
+      "PackagePath": "buildTransitive\\App.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

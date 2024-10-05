@@ -1,0 +1,89 @@
+/* Pozitif değişiklikler için yeşil renk */
+.positive {
+    color: green;
+}
+
+/* Negatif değişiklikler için kırmızı renk */
+.negative {
+    color: red;
+}
+
+/* CSS dosyanıza veya <style> bloğunuza ekleyin */
+.stock-time {
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    color: #333;
+}
+
+.stock-time::before {
+    content: '🕒 '; /* Saat simgesi eklemek için */
+}
+.percent-change-container-details {
+    display: flex;
+    align-items: center; /* Dikey merkezleme */
+}
+.stock-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+.stock-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.percent-change {
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.percent-change.positive {
+    color: #28a745;
+    background-color: #eafaf1;
+}
+
+.percent-change.negative {
+    color: #dc3545;
+    background-color: #f9e2e1;
+}
+
+.stock-symbol {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-buy, .btn-sell {
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-buy {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-sell {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-buy:hover {
+    background-color: #218838;
+}
+
+.btn-sell:hover {
+    background-color: #c82333;
+}

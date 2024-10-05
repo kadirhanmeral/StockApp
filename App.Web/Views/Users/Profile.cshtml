@@ -1,0 +1,307 @@
+@model GetProfileView
+
+@{
+var currencyNames = new Dictionary<string, string>
+{
+{ "ons", "Ons Altın" },
+{ "gram-altin", "Gram Altın" },
+{ "gram-has-altin", "Gram Has Altın" },
+{ "ceyrek-altin", "Çeyrek Altın" },
+{ "yarim-altin", "Yarım Altın" },
+{ "tam-altin", "Tam Altın" },
+{ "cumhuriyet-altini", "Cumhuriyet Altını" },
+{ "ata-altin", "Ata Altını" },
+{ "14-ayar-altin", "14 Ayar Altın" },
+{ "18-ayar-altin", "18 Ayar Altın" },
+{ "22-ayar-bilezik", "22 Ayar Bilezik" },
+{ "ikibucuk-altin", "İkibuçuk Altın" },
+{ "besli-altin", "Beşli Altın" },
+{ "gremse-altin", "Gremse Altın" },
+{ "resat-altin", "Reşat Altın" },
+{ "hamit-altin", "Hamit Altın" },
+{ "gumus", "Gümüş" },
+{ "gram-platin", "Gram Platin" }
+};
+}
+<style>
+  .stock-list {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .stock-list th, .stock-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  .stock-list th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  .stock-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  .stock-list tr:hover {
+    background-color: #f1f1f1;
+  }
+  #chartContainer {
+    height: 370px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+</style>
+
+<section style="background-color: #eee;">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card mb-4">
+          <div class="card-body text-center">
+            <img src="https://media.istockphoto.com/id/1393750072/vector/flat-white-icon-man-for-web-design-silhouette-flat-illustration-vector-illustration-stock.jpg?s=612x612&w=0&k=20&c=s9hO4SpyvrDIfELozPpiB_WtzQV9KhoMUP9R9gVohoU=" alt="avatar"
+                 class="rounded-circle img-fluid" style="width: 150px;">
+            <h5 class="my-3">@Model.FullName</h5>
+            <h5 class="my-3">@Model.Email</h5>
+
+          </div>
+        </div>
+
+        <div class="card mb-4 mb-lg-0 shadow-sm">
+          <div class="card-header bg-primary text-white">
+            <h5 class="mb-0 text-center">Transaction History</h5>
+          </div>
+          <div>
+            <ul class="nav nav-pills mb-3 justify-content-center" id="ex1" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="ex1-tab-1" data-bs-toggle="pill" href="#ex1-pills-1" role="tab" aria-controls="ex1-pills-1" aria-selected="true">Buy History</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="ex1-tab-2" data-bs-toggle="pill" href="#ex1-pills-2" role="tab" aria-controls="ex1-pills-2" aria-selected="false">Sell History</a>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-content" id="ex1-content">
+            <div class="tab-pane fade show active" id="ex1-pills-1" role="tabpanel" aria-labelledby="ex1-tab-1">
+              <div class="card-body p-0">
+                <div class="table-responsive" style="max-height: 200px; overflow-y: auto;">
+                  
+                  <table class="table table-hover table-striped table-bordered mb-0 table-sm">
+                    <thead class="thead-light">
+                    <tr>
+                      <th scope="col">Symbol</th>
+                      <th scope="col">Price</th>
+                      <th scope="col">Quantity</th>
+                      <th scope="col">Time</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var stock in Model.Transactions)
+                    {
+                      
+                      if (stock.TradeType == "Buy")
+                      {
+                        <tr>
+                          <td>@(currencyNames.ContainsKey(stock.StockSymbol) ? currencyNames[stock.StockSymbol] : stock.StockSymbol)</td>
+                          @if (@stock.StockSymbol == "ons")
+                          {
+                            <td>$@stock.Price</td>
+
+                          }
+                          else
+                          {
+                            <td>@string.Format("{0:C}", stock.Price)</td>
+
+                          }
+                          <td>@stock.Quantity</td>
+                          <td>@stock.Time.ToString("MMM dd, yyyy")</td>
+                        </tr>
+                      }
+                    }
+                    </tbody>
+                  </table>
+                </div>
+               
+              </div>
+              
+            </div>
+            <div class="tab-pane fade" id="ex1-pills-2" role="tabpanel" aria-labelledby="ex1-tab-2">
+              <div class="card-body p-0">
+                <div class="table-responsive" style="max-height: 200px; overflow-y: auto;">
+                  <table class="table table-hover table-striped table-bordered mb-0 table-sm">
+                    <thead class="thead-light">
+                    <tr>
+                      <th scope="col">Symbol</th>
+                      <th scope="col">Price</th>
+                      <th scope="col">Quantity</th>
+                      <th scope="col">Time</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var stock in Model.Transactions)
+                    {
+                      if (stock.TradeType == "Sell")
+                      {
+                        <tr>
+                          <td>@(currencyNames.ContainsKey(stock.StockSymbol) ? currencyNames[stock.StockSymbol] : stock.StockSymbol)</td>
+                          @if (@stock.StockSymbol == "ons")
+                          {
+                            <td>$@stock.Price</td>
+
+                          }
+                          else
+                          {
+                            <td>@string.Format("{0:C}", stock.Price)</td>
+
+                          }
+                          <td>@stock.Quantity</td>
+                          <td>@stock.Time.ToString("MMM dd, yyyy")</td>
+                        </tr>
+                      }
+                    }
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-4 shadow-sm">
+              <div class="card-header bg-success text-white text-center">
+                <h5 class="mb-0">Past Profits</h5>
+              </div>
+              <div class="card-body">
+                <h6 class="mb-1 text-muted">Historical Profit</h6>
+                <h6 class="mb-1 text-primary">@string.Format("{0:C}", Model.HistoricalStockProfit)</h6>
+                <hr>
+                <h6 class="mb-1 text-muted">Total Profit</h6>
+                <h6 class="mb-1 text-primary">@string.Format("{0:C}", Model.TotalStockProfit)</h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-lg-8">
+        
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card mb-4 mb-md-0">
+              <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+
+              <script>
+                var stockData = @Html.Raw(Json.Serialize(Model.Data));
+
+                window.onload = function() {
+                  // Sadece stockValue değeri 0'dan büyük olanları filtrele
+                  var filteredStockData = stockData.filter(item => item.stockValue > 0);
+
+                  var totalStockValue = filteredStockData.reduce((total, item) => total + item.stockValue, 0);
+
+                  var dataPoints = filteredStockData.map(item => ({
+                    y: (item.stockValue / totalStockValue) * 100,
+                    label: item.stockSymbol
+                  }));
+
+                  var chart = new CanvasJS.Chart("chartContainer", {
+                    animationEnabled: true,
+                    title: {
+                      text: "Portfolio Distribution by Value",
+                      fontSize: 20,
+                      fontFamily: "Arial"
+                    },
+                    data: [{
+                      type: "pie",
+                      startAngle: 240,
+                      yValueFormatString: "##0.00\"%\"",
+                      indexLabel: "{label} {y}",
+                      dataPoints: dataPoints
+                    }]
+                  });
+                  chart.render();
+                };
+              </script>
+
+              <div id="chartContainer" style="height: 400px; width: 100%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-md-12">
+            <div class="card mb-4">
+              <div class="card-body">
+                <div class="row mb-4">
+                  <div class="col-md-4">
+                    
+                    <div class="card text-white bg-success mb-0">
+                      <div class="card-body p-3">
+
+                        <h5 class="card-title">Current Profit</h5>
+                        <h6 class="card-subtitle mb-1">@string.Format("{0:C}", Model.CurrentStockProfit)</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card text-white bg-info mb-0">
+                      <div class="card-body p-3">
+                        <h5 class="card-title">Total Value</h5>
+                        <h6 class="card-subtitle mb-1">@string.Format("{0:C}", Model.TotalStockValue)</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card text-white bg-warning mb-0">
+                      <div class="card-body p-3">
+                        <h5 class="card-title">Profit/Loss Percentage</h5>
+                        @{
+                          var profitLossPercentage = Model.CurrentStockProfit != 0
+                            ? ((100 * Model.CurrentStockProfit) / (Model.TotalStockValue-Model.CurrentStockProfit))
+                            : 0;
+                        }
+                        <h6 class="card-subtitle mb-1">@string.Format("{0:N2}%", profitLossPercentage)</h6>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                <table class="stock-list">
+                  <thead>
+                  <tr>
+                    <th>Symbol</th>
+                    <th>Buy Price</th>
+                    <th>Quantity</th>
+                    <th>Current Price</th>
+                    <th>Profit</th>
+                    <th>Value</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  @foreach (var stock in Model.Data)
+                  {
+                    <tr>
+                      @if (stock.Quantity != 0)
+                      {
+                        <td>@(currencyNames.ContainsKey(stock.StockSymbol) ? currencyNames[stock.StockSymbol] : stock.StockSymbol)</td>
+                        <td>@string.Format("{0:C}", stock.BuyPrice)</td>
+                        <td>@stock.Quantity</td>
+                        <td>@string.Format("{0:C}", stock.CurrentPrice)</td>
+                        <td>@string.Format("{0:C}", stock.StockProfit)</td>
+                        <td>@string.Format("{0:C}", stock.StockValue)</td>
+                      }
+                     
+                    </tr>
+                  }
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+  </div>
+</section>

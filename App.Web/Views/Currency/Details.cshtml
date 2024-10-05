@@ -1,0 +1,222 @@
+@model CurrencyDetailsView
+<title>Currency Details</title>
+
+<style>
+    .card {
+        border: 1px solid #dee2e6;
+        border-radius: .25rem;
+        box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+        background-color: #ffffff;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    .btn-buy {
+        background-color: #28a745;
+        color: white;
+    }
+
+    .btn-sell {
+        background-color: #dc3545;
+        color: white;
+    }
+
+    .btn-buy:hover {
+        background-color: #218838;
+    }
+
+    .btn-sell:hover {
+        background-color: #c82333;
+    }
+</style>
+
+<div class="container">
+    <div class="row mt-4">
+        <div class="col-md-4 offset-md-4">
+            <div class="card text-center">
+                <div class="card-body">
+                    @{
+                        var currencyNames = new Dictionary<string, string>
+                        {
+                            { "ons", "Ons Altın" },
+                            { "gram-altin", "Gram Altın" },
+                            { "gram-has-altin", "Gram Has Altın" },
+                            { "ceyrek-altin", "Çeyrek Altın" },
+                            { "yarim-altin", "Yarım Altın" },
+                            { "tam-altin", "Tam Altın" },
+                            { "cumhuriyet-altini", "Cumhuriyet Altını" },
+                            { "ata-altin", "Ata Altını" },
+                            { "14-ayar-altin", "14 Ayar Altın" },
+                            { "18-ayar-altin", "18 Ayar Altın" },
+                            { "22-ayar-bilezik", "22 Ayar Bilezik" },
+                            { "ikibucuk-altin", "İkibuçuk Altın" },
+                            { "besli-altin", "Beşli Altın" },
+                            { "gremse-altin", "Gremse Altın" },
+                            { "resat-altin", "Reşat Altın" },
+                            { "hamit-altin", "Hamit Altın" },
+                            { "gumus", "Gümüş" },
+                            { "gram-platin", "Gram Platin" }
+                        };
+                        var currencyDisplayName = Model.Currency != null && currencyNames.TryGetValue(Model.Currency.ToLower(), out var currencyName) 
+                            ? currencyName 
+                            : Model.Currency;
+                    }
+                    <h5 class="card-title" >@currencyDisplayName</h5>
+                    <h5 class="card-title" id="stockSymbol" style="display:none;">@Model.Currency</h5>
+
+                    @{
+                        if (Model.Currency == "ons")
+                            {
+                            <p class="card-text" id="price">$@Model.BuyRate</p>
+                            }
+                        else
+                            {
+                            <p class="card-text" id="price">₺@Model.BuyRate</p>
+                            }
+                    }
+
+                    <span class="percent-change mb-2 @((Model.Change > 0) ? "positive" : "negative")">
+                        @Model.Change%
+                    </span>
+                    <div class="mt-3">
+                        @{
+                            var priceStr = Model.BuyRate.ToString().Replace(',', '.');
+
+                        }
+                        @if (ViewBag.IsAuthenticated)
+                        {
+                        <button type="button" class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal" onclick="populatePrice('@Model.BuyRate')">Buy</button>
+                        <button type="button" class="btn btn-sell" data-bs-toggle="modal" data-bs-target="#sellModal" onclick="populatePrice('@Model.SellRate')">Sell</button>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="buyModal" tabindex="-1" aria-labelledby="buyModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="buyModalLabel">Stock Buying</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="buyForm">
+                        <div class="mb-3">
+                            <label for="buyModalPrice" class="form-label">Price</label>
+                            <input type="text" class="form-control" id="buyModalPrice" name="price" placeholder="Enter Price" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="buyQuantity" class="form-label">Quantity</label>
+                            <input type="number" class="form-control" id="buyQuantity" name="quantity" placeholder="Enter Quantity" required>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" onclick="submitBuy()">Buy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="sellModal" tabindex="-1" aria-labelledby="sellModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="sellModalLabel">Stock Selling</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="sellForm">
+                        <div class="mb-3">
+                            <label for="sellModalPrice" class="form-label">Price</label>
+                            <input type="text" class="form-control" id="sellModalPrice" name="price" placeholder="Enter Price" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="sellQuantity" class="form-label">Quantity</label>
+                            <input type="number" class="form-control" id="sellQuantity" name="quantity" placeholder="Enter Quantity" required>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" onclick="submitSell()">Sell</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function populatePrice(price) {
+        document.getElementById('buyModalPrice').value = price;
+        document.getElementById('sellModalPrice').value = price; 
+    }
+
+    function submitBuy() {
+        const price = parseFloat(document.getElementById('buyModalPrice').value).toFixed(2);
+        const quantity = document.getElementById('buyQuantity').value;
+        const symbol = document.getElementById('stockSymbol').textContent.trim();
+        console.log(price)
+        console.log(quantity)
+        console.log(symbol)
+        
+        if (price && quantity) {
+            $.ajax({
+                type: 'POST',
+                url: '/Currency/BuyCurrency/', 
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    price: price,
+                    quantity: quantity,
+                    symbol: symbol
+                }),
+                success: function(response) {
+                    $('#sellModal').modal('hide');
+                    alert('Stock purchased successfully.');
+                },
+                error: function(xhr, status, error) {
+                    console.error('Error:', error);
+                    alert('Purchase operation failed.');
+                }
+            });
+        } else {
+            alert('Please, fill all field.');
+        }
+    }
+
+    function submitSell() {
+        const price = parseFloat(document.getElementById('sellModalPrice').value).toFixed(2);
+        const quantity = document.getElementById('sellQuantity').value;
+        const symbol = document.getElementById('stockSymbol').textContent.trim();
+        console.log(price)
+        console.log(quantity)
+        console.log(symbol)
+        if (price && quantity) {
+            $.ajax({
+                type: 'POST',
+                url: '/Currency/SellCurrency/', // API endpoint yolunu buraya ekleyin
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    price: price,
+                    quantity: quantity,
+                    symbol: symbol
+                }),
+                success: function(response) {
+                    // Başarılı işlem sonrası modalı kapat
+                    $('#sellModal').modal('hide');
+                    alert('Stock sold successfully.');
+                },
+                error: function(xhr, status, error) {
+                    console.error('Error:', error);
+                    alert('Sold operation failed.');
+                }
+            });
+        } else {
+            alert('Please, fill all field.');
+        }
+    }
+</script>

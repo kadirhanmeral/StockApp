@@ -1,0 +1,17 @@
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Authorization/bin/Debug/net8.0/App.Authorization.deps.json
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Authorization/bin/Debug/net8.0/App.Authorization.dll
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Authorization/bin/Debug/net8.0/App.Authorization.pdb
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Authorization/bin/Debug/net8.0/App.Application.dll
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Authorization/bin/Debug/net8.0/App.Domain.dll
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Authorization/bin/Debug/net8.0/App.Application.pdb
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Authorization/bin/Debug/net8.0/App.Domain.pdb
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Authorization/obj/Debug/net8.0/App.Authorization.csproj.AssemblyReference.cache
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Authorization/obj/Debug/net8.0/App.Authorization.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Authorization/obj/Debug/net8.0/App.Authorization.AssemblyInfoInputs.cache
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Authorization/obj/Debug/net8.0/App.Authorization.AssemblyInfo.cs
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Authorization/obj/Debug/net8.0/App.Authorization.csproj.CoreCompileInputs.cache
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Authorization/obj/Debug/net8.0/App.Auth.ED3B614D.Up2Date
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Authorization/obj/Debug/net8.0/App.Authorization.dll
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Authorization/obj/Debug/net8.0/refint/App.Authorization.dll
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Authorization/obj/Debug/net8.0/App.Authorization.pdb
+/Users/kadirhanmeral/Desktop/Stock/StockApp/App.Authorization/obj/Debug/net8.0/ref/App.Authorization.dll
